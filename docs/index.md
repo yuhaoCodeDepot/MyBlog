@@ -1,5 +1,6 @@
 ---
 layout: home
+
 hero:
   name: 一塘余水
   text: 技术博客与摄影空间
@@ -14,6 +15,7 @@ hero:
     - theme: alt
       text: 关于我
       link: /about
+
 features:
   - icon: 💻
     title: 前端开发
