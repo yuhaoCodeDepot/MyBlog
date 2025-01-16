@@ -11,6 +11,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "一塘余水",
   description: "一塘余水的个人博客",
+  base: '/MyBlog/',
   
   // 主题配置
   themeConfig: {
