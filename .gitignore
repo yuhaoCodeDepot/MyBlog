@@ -4,27 +4,4 @@ node_modules/
 # IDE - VSCode
 .history/
 
-# Build output
-.next/
-out/
-build/
-dist/
-docs/.vitepress/dist/
-docs/.vitepress/cache/
 
-# Environment
-.env*
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Misc
-.DS_Store
-*.pem
-
-# 确保不忽略图片文件
-!public/images/photography/*.jpg
-!public/images/photography/*.JPG
-!public/images/photography/*.jpeg
-!public/images/photography/*.png
