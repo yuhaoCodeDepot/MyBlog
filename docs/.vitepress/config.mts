@@ -10,4 +10,5 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   // ... 其余配置保持不变 ...
+  base: '/newblog/',
 })

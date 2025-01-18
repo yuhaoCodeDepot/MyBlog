@@ -11,12 +11,14 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "一塘余水",
   description: "一塘余水的个人博客",
+  base: '/newblog/',
   
   // 主题配置
   themeConfig: {
     // Logo 配置
     logo: '/logo.png',
     siteTitle: '一塘余水',
+
 
     // 导航栏
     nav: [
