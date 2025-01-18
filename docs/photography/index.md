@@ -16,11 +16,11 @@ import { ref } from 'vue'
 const photos = ref([
   {
     name: 'IMG_9911',
-    path: '../public/images/IMG_9911.JPG',
+    path: '../images/IMG_9911.JPG',
   },
   {
     name: 'IMG_9912',
-    path: '../public/images/IMG_9912.JPG',
+    path: '../images/IMG_9912.JPG',
   }
 ])
 </script>
