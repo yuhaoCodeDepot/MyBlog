@@ -11,35 +11,16 @@
 <script setup>
 import { ref } from 'vue'
 
-// 图片元数据配置
-const photoMetadata = {
-  'IMG_7943': {
-    description: '上海中心大厦',
-    location: '上海陆家嘴',
-    date: '2024-01-04',
-    camera: '富士 X-T30 II',
-    lens: '适马 56mm F1.4'
-  },
-  'IMG_7944': {
-    description: '东方明珠夜景',
-    location: '上海陆家嘴',
-    date: '2024-01-04',
-    camera: '富士 X-T30 II',
-    lens: '适马 56mm F1.4'
-  }
-}
 
 // 图片列表
 const photos = ref([
   {
-    name: 'IMG_7943',
-    path: '/images/photography/IMG_7943.JPG',
-    ...photoMetadata['IMG_7943']
+    name: 'IMG_9911',
+    path: '../public/images/IMG_9911.JPG',
   },
   {
-    name: 'IMG_7944',
-    path: '/images/photography/IMG_7944.JPG',
-    ...photoMetadata['IMG_7944']
+    name: 'IMG_9912',
+    path: '../public/images/IMG_9912.JPG',
   }
 ])
 </script>
@@ -48,17 +29,6 @@ const photos = ref([
   <div v-for="photo in photos" :key="photo.path" class="photo-card">
     <div class="photo-image">
       <img :src="photo.path" :alt="photo.description">
-    </div>
-    <div class="photo-info">
-      <h3>{{ photo.description }}</h3>
-      <div class="meta">
-        <span class="location">{{ photo.location }}</span>
-        <span class="date">{{ photo.date }}</span>
-      </div>
-      <div class="camera-info">
-        <span class="camera">{{ photo.camera }}</span>
-        <span class="lens">{{ photo.lens }}</span>
-      </div>
     </div>
   </div>
 </div>
@@ -86,7 +56,7 @@ const photos = ref([
 
 .photo-image {
   width: 100%;
-  height: 240px;
+  height: 400px;
   overflow: hidden;
 }
 
@@ -101,15 +71,6 @@ const photos = ref([
   transform: scale(1.05);
 }
 
-.photo-info {
-  padding: 16px;
-}
-
-.photo-info h3 {
-  margin: 0;
-  font-size: 1.2rem;
-  color: var(--vp-c-text-1);
-}
 
 .meta {
   display: flex;

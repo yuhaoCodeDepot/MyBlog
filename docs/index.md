@@ -6,7 +6,7 @@ hero:
   text: 技术博客与摄影空间
   tagline: 记录技术成长，分享摄影作品
   image:
-    src: /logo.png
+    src: /images/logo.png
     alt: 一塘余水
   actions:
     - theme: brand
