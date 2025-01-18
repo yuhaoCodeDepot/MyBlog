@@ -16,7 +16,7 @@ export default defineConfig({
   // 主题配置
   themeConfig: {
     // Logo 配置
-    logo: '../public/logo.png',
+    logo: '../images/logo.png',
     siteTitle: '一塘余水',
 
 
